@@ -6,7 +6,8 @@ import { ThemeProvider, CssBaseline, Container } from '@mui/material';
 import customTheme from './theme/CustomTheme';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import EnquiryForm from './components/enquiryform.jsx'
+import EnquiryForm from './components/enquiryform.jsx';
+//import logo from './assets/ovilogo-D59Xk3vV.png';
 
 function App() {
   
@@ -22,11 +23,11 @@ function App() {
           backgroundPosition: 'center',
           backgroundSize: 'contain',
           minHeight: '100vh',
-          paddingBottom: '2rem', // ensure footer spacing
+          paddingBottom: '2rem', 
         }}
       >
          <img
-          src="/images/ovilogo.png"
+          src="ovilogo.png"
           alt="Ovi Logo"
           style={{
             height: 60,
